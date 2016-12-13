@@ -58,7 +58,7 @@ $(document).ready(function() {
 				turns = 0;
 			}
 		else if($(this).hasClass('disabled')) {
-			alert('This is already filled');
+			//alert('This is already filled');
 		}
 		else if(turns%2 == 0 ) {
 			turns++;
