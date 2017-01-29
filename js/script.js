@@ -99,16 +99,13 @@ $(document).ready(function() {
 	});
 	$('#reset').click(function() {
 		if(player1 > player2){
-			var play = document.getElementById('count');
-			play.innerHTML = "<h1>Player 1 : " + player1 + "</h1>" + "<h2>Player 2: " + player2 + "</h2>";
+			$('#count').html("<h1>Player 1 : " + player1 + "</h1>" + "<h2>Player 2: " + player2 + "</h2>");
 		}
 		else if(player1 < player2){
-			var play = document.getElementById('count');
-			play.innerHTML = "<h2>Player 1 : " + player1 + "</h2>" + "<h1>Player 2: " + player2 + "</h1>";
+			$('#count').html("<h2>Player 1 : " + player1 + "</h2>" + "<h1>Player 2: " + player2 + "</h1>");
 		}
 		else {
-			var play = document.getElementById('count');
-			play.innerHTML = "<h2>Player 1 : " + player1 + "</h2>" + "<h2>Player 2: " + player2 + "</h2>";
+			$('#count').html("<h2>Player 1 : " + player1 + "</h2>" + "<h2>Player 2: " + player2 + "</h2>");
 		}
 		$("#board li").text("+");
 		$("#board li").removeClass('disabled');
