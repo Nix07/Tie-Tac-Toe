@@ -1,36 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Play Tic Tac Toe</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<script src="js/jquery.js"></script>
-	<script src="js/script.js"></script>
-</head>
-<body>
-	<div class="container">
-		<header>
-			<h1>Tic Tac Toe</h1>
-		</header>
-		<ul id="board">
-			<li id="spot1">+</li>
-			<li id="spot2">+</li>
-			<li id="spot3">+</li>
-			<li id="spot4">+</li>
-			<li id="spot5">+</li>
-			<li id="spot6">+</li>
-			<li id="spot7">+</li>
-			<li id="spot8">+</li>
-			<li id="spot9">+</li>
-		</ul>
-		<div class="clearfix"></div>
-		<footer>
-			<button id="reset">Reset Game</button>
-		</footer>
-	</div>
-	<footer id="count" style="padding-top: 10px;">
-		<h2>Player1 : 0</h2>
-		<h2>Player2 : 0</h2>
-	</footer>
-</body>
+	<head>
+		<meta charset="utf-8">
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+
+		<div class="row">
+			<div class="col">X</div>
+			<div class="col">X</div>
+			<div class="col">X</div>
+		</div>
+
+		<div class="row">
+			<div class="col">X</div>
+			<div class="col">X</div>
+			<div class="col">X</div>
+		</div>
+
+		<div class="row">
+			<div class="col">X</div>
+			<div class="col">X</div>
+			<div class="col">X</div>
+		</div>
+
+		<div>
+			<button id="restart">Restart</button>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+	</body>
 </html>
