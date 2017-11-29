@@ -1,24 +1,28 @@
 body{
-	margin: 0px;
-	margin-top: 10px;
-	background-color: orange;
-	text-align: center;
+	background: grey;
 }
 
-.col{
-	display: inline-block;
-	width: 80px;
-	height: 70px;
-	text-align: center;
-	background-color: white;
-	margin-top: 2px;
-	font-size: 40px;
-	padding: 20px;
-	padding-top: 30px;
+.Mainpad {
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  top: 50px;
 }
 
-button{
-	padding: 20px;
-	font-size: 30px;
-	margin-top: 10px;
+.button {
+  margin: 4px 2px;
+  width: 2em;
+  height: 2em;
+  font-size: 270%;
+}
+
+.button10 {
+  margin: 4px 2px;
+  width: 6.4em;
+  height: 64px;
+}
+
+#Narrator {
+  text-align: center;
+  font-size: 270%;
 }

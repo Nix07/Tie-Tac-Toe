@@ -1,35 +1,34 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Tic Tac Toe</title>
-		<link rel="stylesheet" href="/css/style.css">
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>TicTacToe | CodeMechanic</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
-		<div class="row">
-			<div class="col">X</div>
-			<div class="col">X</div>
-			<div class="col">X</div>
+		<div class="Mainpad">
+	  	<div class="row" id="Narrator">Tic Tac Toe</div>
+	  	<div class="row">
+	    	<div class="btn btn-default button" id="button1" onclick='insertMove("#button1",1)'></div>
+	      <div class="btn btn-default button" id="button2" onclick='insertMove("#button2",2)'></div>
+	      <div class="btn btn-default button" id="button3" onclick='insertMove("#button3",3)'></div>
+	  	</div>
+	  	<div class="row">
+	    	<div class="btn btn-default button" id="button4" onclick='insertMove("#button4",4)'></div>
+	      <div class="btn btn-default button" id="button5" onclick='insertMove("#button5",5)'></div>
+	      <div class="btn btn-default button" id="button6" onclick='insertMove("#button6",6)'></div>
+	    </div>
+	    <div class="row">
+	    	<div class="btn btn-default button" id="button7" onclick='insertMove("#button7",7)'></div>
+	      <div class="btn btn-default button" id="button8" onclick='insertMove("#button8",8)'></div>
+	      <div class="btn btn-default button" id="button9" onclick='insertMove("#button9",9)'></div>
+	    </div>
+	    <div class="row">
+	    	<div class="btn btn-default button button10" onclick="resetGame()">Reset</div>
+	    </div>
 		</div>
-
-		<div class="row">
-			<div class="col">X</div>
-			<div class="col">X</div>
-			<div class="col">X</div>
-		</div>
-
-		<div class="row">
-			<div class="col">X</div>
-			<div class="col">X</div>
-			<div class="col">X</div>
-		</div>
-
-		<div>
-			<button id="restart">Restart</button>
-		</div>
-
-		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
-	</body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+		<script src="js/script.js"></script>
+  </body>
 </html>
